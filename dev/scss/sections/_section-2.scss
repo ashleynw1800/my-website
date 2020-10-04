@@ -1,0 +1,192 @@
+/* =============
+    Section-2
+============= */
+#section-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-flow: row;
+    grid-template-rows: repeat(4, 500px);
+    grid-gap: 15px;
+    padding: 20px;
+    padding-top: 100px;
+
+    .container1{
+        grid-area: "container1";
+        position: relative;
+        width: 100%;
+        object-fit: fill;
+        width: 500px;
+        height: 500px;
+
+        img{
+            width: 500px;
+            height: 500px;
+            object-fit: cover;
+        }
+    }
+
+    .container2{
+        grid-area: "container2";
+        position: relative;
+        width: 100%;
+        object-fit: fill;
+        width: 500px;
+        height: 500px;
+
+        img{
+            width: 500px;
+            height: 500px;
+            object-fit: cover;
+        }
+    }
+
+    .container3{
+        grid-area: "container3";
+        position: relative;
+        width: 100%;
+        object-fit: fill;
+        width: 500px;
+        height: 500px;
+
+        img{
+            width: 500px;
+            height: 500px;
+            object-fit: cover;
+        }
+    }
+
+    .container4{
+        grid-area: "container4";
+        position: relative;
+        width: 100%;
+        object-fit: fill;
+        width: 500px;
+        height: 500px;
+
+        img{
+            width: 500px;
+            height: 500px;
+            object-fit: cover;
+        }
+    }
+
+    .container5{
+        grid-area: "container5";
+        position: relative;
+        width: 100%;
+        object-fit: fill;
+        width: 500px;
+        height: 500px;
+
+        img{
+            width: 500px;
+            height: 500px;
+            object-fit: cover;
+        }
+    }
+
+    .container6{
+        grid-area: "container6";
+        position: relative;
+        width: 100%;
+        object-fit: fill;
+        width: 500px;
+        height: 500px;
+
+        img{
+            width: 500px;
+            height: 500px;
+            object-fit: cover;
+        }
+    }
+
+    .container7{
+        grid-area: "container7";
+        position: relative;
+        width: 100%;
+        object-fit: fill;
+        width: 500px;
+        height: 500px;
+
+        img{
+            width: 500px;
+            height: 500px;
+            object-fit: cover;
+        }
+    }
+
+    .container8{
+        grid-area: "container8";
+        position: relative;
+        width: 100%;
+        object-fit: fill;
+        width: 500px;
+        height: 500px;
+
+        img{
+            width: 500px;
+            height: 500px;
+            object-fit: cover;
+        }
+    }
+
+    .container9{
+        grid-area: "container";
+        position: relative;
+        width: 100%;
+        object-fit: fill;
+        width: 500px;
+        height: 500px;
+
+        img{
+            width: 500px;
+            height: 500px;
+            object-fit: cover;
+        }
+    }
+
+    .container10{
+        grid-area: "container10";
+        position: relative;
+        width: 100%;
+        object-fit: fill;
+        width: 500px;
+        height: 500px;
+
+        img{
+            width: 500px;
+            height: 500px;
+            object-fit: cover;
+        }
+    }
+
+    .container11{
+        grid-area: "container11";
+        position: relative;
+        width: 100%;
+        object-fit: fill;
+        width: 500px;
+        height: 500px;
+
+        img{
+            width: 500px;
+            height: 500px;
+            object-fit: cover;
+        }
+    }
+
+    .container12{
+        grid-area: "container12";
+        position: relative;
+        width: 100%;
+        object-fit: fill;
+        width: 500px;
+        height: 500px;
+
+        img{
+            width: 500px;
+            height: 500px;
+            object-fit: cover;
+        }
+    }
+}

@@ -1,0 +1,80 @@
+/* =============
+    Header
+============= */
+header{
+    background-color: #F7743C;
+    left: 0;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    display: grid;
+    grid-template-areas: "logo name . nav";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    z-index: 20;
+
+
+    >#logo-container{
+        grid-area: logo;
+        >#logo{
+            width: 150px;
+            padding: 10px;
+            padding-left: 50px;
+        }
+    }
+
+    >#name{
+        grid-area: name;
+        justify-self: center;
+        align-self: center;
+        >.aw{
+            width: 500px;
+            padding: 10px;
+            color: #FFFFFF;
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-weight: 300;
+            font-size: 42px;
+        }
+    }
+    
+    #nav-container{
+        grid-area: nav;
+        justify-self: center;
+        align-self: center;
+        
+        >#organize{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "work contact";
+        color: #FFFFFF;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        padding: 20px;
+        padding-right: 50px;
+
+
+        >.work{
+            grid-area: work;
+            padding: 15px;
+        }
+        .work:hover{
+            text-decoration-line: underline;
+        }
+
+
+
+        >.contact{
+            grid-area: contact;
+            margin-left: 40px;
+            padding: 15px;
+        }
+        .contact:hover{
+            text-decoration-line: underline;
+        }
+    }
+    
+    }
+
+    
+
+}

@@ -1,0 +1,1 @@
+var hello_min=function(e){"use strict";return e.redBoxAnimation=function(){var e=gsap.timeline();return e.to(".hello",{duration:moveSpeed,color:"#ff8b74",x:20,borderRadius:"100px",delay:-3}),e},e}({});

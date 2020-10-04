@@ -1,0 +1,38 @@
+/* =============
+    Section-1
+============= */
+#section-1{
+    margin-top: 300px;
+    width: 100%;
+    position: relative;
+    z-index: 50;
+
+    .hello{
+    display: grid;
+    grid-template-rows: "hello
+                        im";
+    
+        >h1{
+            grid-area: hello;
+            width: 500px;
+            padding: 10px;
+            color: #F7743C;
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-weight: 500;
+            font-size: 92px;
+        }
+
+        >p{
+            grid-area: im;
+            display: flex;
+            width: 500px;
+            padding: 10px;
+            padding-top: 130px;
+            color: black;
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-weight: 300;
+            font-size: 32px;
+        }
+    }
+
+}
