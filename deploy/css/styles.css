@@ -403,8 +403,8 @@ header {
       padding: 10px;
       color: #FFFFFF;
       font-family: 'Open Sans Condensed', sans-serif;
-      font-weight: 300;
-      font-size: 42px; }
+      font-weight: 3vw;
+      font-size: 3vw; }
   header #nav-container {
     grid-area: nav;
     justify-self: center;
@@ -416,7 +416,7 @@ header {
       color: #FFFFFF;
       font-family: 'Open Sans Condensed', sans-serif;
       font-weight: 300;
-      font-size: 20px;
+      font-size: 1.5vw;
       padding: 20px;
       padding-right: 50px; }
       header #nav-container > #organize > .work {
@@ -435,9 +435,11 @@ header {
     Footer
 ============= */
 footer {
+  margin-top: 5vw;
   background-color: #F7743C;
   left: 0;
   top: 0;
+  bottom: 0;
   width: 100%;
   height: 50px;
   display: grid;
@@ -486,17 +488,17 @@ footer {
       color: #F7743C;
       font-family: 'Oswald', sans-serif;
       font-weight: 500;
-      font-size: 120px; }
+      font-size: 10vw; }
     #section-1 .hello > p {
       grid-area: im;
       display: flex;
       width: 700px;
       padding: 10px;
-      padding-top: 180px;
+      padding-top: 13vw;
       color: black;
       font-family: 'Open Sans Condensed', sans-serif;
       font-weight: 300;
-      font-size: 50px; }
+      font-size: 3vw; }
 
 /* =============
     Section-2
@@ -536,11 +538,11 @@ footer {
   position: relative;
   width: 100%;
   object-fit: fill;
-  width: 500px;
-  height: 500px; }
+  width: 30vw;
+  height: 30vw; }
   #section-2 .container1 img {
-    width: 500px;
-    height: 500px;
+    width: 30vw;
+    height: 30vw;
     object-fit: cover; }
 
 #section-2 .container2 {
@@ -548,11 +550,11 @@ footer {
   position: relative;
   width: 100%;
   object-fit: fill;
-  width: 500px;
-  height: 500px; }
+  width: 30vw;
+  height: 30vw; }
   #section-2 .container2 img {
-    width: 500px;
-    height: 500px;
+    width: 30vw;
+    height: 30vw;
     object-fit: cover; }
 
 #section-2 .container3 {
@@ -560,11 +562,11 @@ footer {
   position: relative;
   width: 100%;
   object-fit: fill;
-  width: 500px;
-  height: 500px; }
+  width: 30vw;
+  height: 30vw; }
   #section-2 .container3 img {
-    width: 500px;
-    height: 500px;
+    width: 30vw;
+    height: 30vw;
     object-fit: cover; }
 
 #section-2 .container4 {
@@ -572,11 +574,11 @@ footer {
   position: relative;
   width: 100%;
   object-fit: fill;
-  width: 500px;
-  height: 500px; }
+  width: 30vw;
+  height: 30vw; }
   #section-2 .container4 img {
-    width: 500px;
-    height: 500px;
+    width: 30vw;
+    height: 30vw;
     object-fit: cover; }
 
 #section-2 .container5 {
@@ -584,11 +586,11 @@ footer {
   position: relative;
   width: 100%;
   object-fit: fill;
-  width: 500px;
-  height: 500px; }
+  width: 30vw;
+  height: 43vw; }
   #section-2 .container5 img {
-    width: 500px;
-    height: 500px;
+    width: 30vw;
+    height: 30vw;
     object-fit: cover; }
 
 #section-2 .container6 {
@@ -596,11 +598,11 @@ footer {
   position: relative;
   width: 100%;
   object-fit: fill;
-  width: 500px;
-  height: 500px; }
+  width: 30vw;
+  height: 30vw; }
   #section-2 .container6 img {
-    width: 500px;
-    height: 500px;
+    width: 30vw;
+    height: 30vw;
     object-fit: cover; }
 
 #section-2 .container7 {
@@ -608,11 +610,11 @@ footer {
   position: relative;
   width: 100%;
   object-fit: fill;
-  width: 500px;
-  height: 500px; }
+  width: 30vw;
+  height: 30vw; }
   #section-2 .container7 img {
-    width: 500px;
-    height: 500px;
+    width: 30vw;
+    height: 30vw;
     object-fit: cover; }
 
 #section-2 .container8 {
@@ -620,11 +622,11 @@ footer {
   position: relative;
   width: 100%;
   object-fit: fill;
-  width: 500px;
-  height: 500px; }
+  width: 30vw;
+  height: 30vw; }
   #section-2 .container8 img {
-    width: 500px;
-    height: 500px;
+    width: 30vw;
+    height: 30vw;
     object-fit: cover; }
 
 #section-2 .container9 {
@@ -632,11 +634,11 @@ footer {
   position: relative;
   width: 100%;
   object-fit: fill;
-  width: 500px;
-  height: 500px; }
+  width: 30vw;
+  height: 30vw; }
   #section-2 .container9 img {
-    width: 500px;
-    height: 500px;
+    width: 30vw;
+    height: 30vw;
     object-fit: cover; }
 
 #section-2 .container10 {
@@ -644,11 +646,11 @@ footer {
   position: relative;
   width: 100%;
   object-fit: fill;
-  width: 500px;
-  height: 500px; }
+  width: 30vw;
+  height: 30vw; }
   #section-2 .container10 img {
-    width: 500px;
-    height: 500px;
+    width: 30vw;
+    height: 30vw;
     object-fit: cover; }
 
 #section-2 .container11 {
@@ -656,11 +658,11 @@ footer {
   position: relative;
   width: 100%;
   object-fit: fill;
-  width: 500px;
-  height: 500px; }
+  width: 30vw;
+  height: 30vw; }
   #section-2 .container11 img {
-    width: 500px;
-    height: 500px;
+    width: 30vw;
+    height: 30vw;
     object-fit: cover; }
 
 #section-2 .container12 {
@@ -668,29 +670,33 @@ footer {
   position: relative;
   width: 100%;
   object-fit: fill;
-  width: 500px;
-  height: 500px; }
+  width: 30vw;
+  height: 30vw; }
   #section-2 .container12 img {
-    width: 500px;
-    height: 500px;
+    width: 30vw;
+    height: 30vw;
     object-fit: cover; }
 
 /* =============
     Section-3
 ============= */
 #section-3 {
-  margin-top: 300px;
+  margin-top: 3vw;
+  margin-bottom: 4vw;
   margin: auto;
   position: relative;
   background-color: #F7743C;
   width: 80%;
-  padding: 50px;
+  padding: 1vw;
+  padding-top: 3vw;
   display: grid;
   grid-template-areas: "img text";
-  grid-template-columns: 40% 40%; }
+  grid-template-columns: 40% 40%;
+  justify-content: center;
+  align-content: center; }
   #section-3 > .contact {
     grid-area: text;
-    margin-left: 90px;
+    margin-left: 50%;
     align-self: center; }
     #section-3 > .contact > h1 {
       display: flex;
@@ -698,7 +704,7 @@ footer {
       color: white;
       font-family: 'Oswald', sans-serif;
       font-weight: 500;
-      font-size: 80px; }
+      font-size: 5vw; }
     #section-3 > .contact > p {
       display: flex;
       padding: 10px;
@@ -706,22 +712,21 @@ footer {
       color: white;
       font-family: 'Open Sans Condensed', sans-serif;
       font-weight: 300;
-      font-size: 40px; }
+      font-size: 2vw; }
     #section-3 > .contact > h3 {
       display: flex;
-      width: 100%;
       padding: 10px;
       padding-top: 30px;
       color: white;
       font-family: 'Oswald', sans-serif;
       font-weight: 300;
-      font-size: 60px; }
+      font-size: 1.7vw; }
   #section-3 > .imgcontainer {
     grid-area: img;
     display: flex; }
     #section-3 > .imgcontainer img {
       display: flex;
-      max-width: 600px;
-      max-height: 600px;
+      width: 40vw;
+      height: 40vw;
       align-self: flex-start;
       border-radius: 30px; }

@@ -2,19 +2,23 @@
     Section-3
 ============= */
 #section-3{
-    margin-top: 300px;
+    margin-top: 3vw;
+    margin-bottom: 4vw;
     margin: auto;
     position: relative;
     background-color: #F7743C;
     width: 80%;
-    padding: 50px;
+    padding: 1vw;
+    padding-top: 3vw;
     display: grid;
     grid-template-areas: "img text";
     grid-template-columns: 40% 40%;
+    justify-content: center;
+    align-content: center;
 
     >.contact{
         grid-area: text;
-        margin-left: 90px;
+        margin-left: 50%;
         align-self: center;
 
         >h1{
@@ -23,7 +27,7 @@
             color: white;
             font-family: 'Oswald', sans-serif;
             font-weight: 500;
-            font-size: 80px;
+            font-size: 5vw;
         }
 
         >p{
@@ -33,18 +37,17 @@
             color: white;
             font-family: 'Open Sans Condensed', sans-serif;
             font-weight: 300;
-            font-size: 40px;
+            font-size: 2vw;
         }
 
         >h3{
             display: flex;
-            width: 100%;
             padding: 10px;
             padding-top: 30px;
             color: white;
             font-family: 'Oswald', sans-serif;
             font-weight: 300;
-            font-size: 60px;
+            font-size: 1.7vw;
         }
     }
 
@@ -53,8 +56,8 @@
         display: flex;
         img{
             display: flex;
-            max-width: 600px;
-            max-height: 600px;
+            width: 40vw;
+            height: 40vw;
             align-self: flex-start;
             border-radius: 30px;
         }
