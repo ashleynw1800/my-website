@@ -441,7 +441,7 @@ header {
   margin-top: 300px;
   width: 100%;
   position: relative;
-  z-index: 50; }
+  z-index: 10; }
   #section-1 .hello {
     display: grid;
     grid-template-rows: "hello im"; }
@@ -450,160 +450,242 @@ header {
       width: 500px;
       padding: 10px;
       color: #F7743C;
-      font-family: 'Open Sans Condensed', sans-serif;
+      font-family: 'Oswald', sans-serif;
       font-weight: 500;
-      font-size: 92px; }
+      font-size: 120px; }
     #section-1 .hello > p {
       grid-area: im;
       display: flex;
-      width: 500px;
+      width: 700px;
       padding: 10px;
-      padding-top: 130px;
+      padding-top: 180px;
       color: black;
       font-family: 'Open Sans Condensed', sans-serif;
       font-weight: 300;
-      font-size: 32px; }
+      font-size: 50px; }
 
 /* =============
     Section-2
 ============= */
-#section-2 {
+@media (min-width: 576px) {
+  #section-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-flow: row;
+    grid-template-rows: repeat(12, 500px);
+    grid-gap: 15px;
+    padding: 20px;
+    padding-top: 100px; } }
+
+@media (min-width: 768px) {
+  #section-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: row;
+    grid-template-rows: repeat(6, 500px);
+    grid-gap: 15px;
+    padding: 20px;
+    padding-top: 100px; } }
+
+@media (min-width: 992px) {
+  #section-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-flow: row;
+    grid-template-rows: repeat(4, 500px);
+    grid-gap: 15px;
+    padding: 20px;
+    padding-top: 100px; } }
+
+#section-2 .container1 {
+  grid-area: "container1";
+  position: relative;
+  width: 100%;
+  object-fit: fill;
+  width: 500px;
+  height: 500px; }
+  #section-2 .container1 img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover; }
+
+#section-2 .container2 {
+  grid-area: "container2";
+  position: relative;
+  width: 100%;
+  object-fit: fill;
+  width: 500px;
+  height: 500px; }
+  #section-2 .container2 img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover; }
+
+#section-2 .container3 {
+  grid-area: "container3";
+  position: relative;
+  width: 100%;
+  object-fit: fill;
+  width: 500px;
+  height: 500px; }
+  #section-2 .container3 img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover; }
+
+#section-2 .container4 {
+  grid-area: "container4";
+  position: relative;
+  width: 100%;
+  object-fit: fill;
+  width: 500px;
+  height: 500px; }
+  #section-2 .container4 img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover; }
+
+#section-2 .container5 {
+  grid-area: "container5";
+  position: relative;
+  width: 100%;
+  object-fit: fill;
+  width: 500px;
+  height: 500px; }
+  #section-2 .container5 img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover; }
+
+#section-2 .container6 {
+  grid-area: "container6";
+  position: relative;
+  width: 100%;
+  object-fit: fill;
+  width: 500px;
+  height: 500px; }
+  #section-2 .container6 img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover; }
+
+#section-2 .container7 {
+  grid-area: "container7";
+  position: relative;
+  width: 100%;
+  object-fit: fill;
+  width: 500px;
+  height: 500px; }
+  #section-2 .container7 img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover; }
+
+#section-2 .container8 {
+  grid-area: "container8";
+  position: relative;
+  width: 100%;
+  object-fit: fill;
+  width: 500px;
+  height: 500px; }
+  #section-2 .container8 img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover; }
+
+#section-2 .container9 {
+  grid-area: "container";
+  position: relative;
+  width: 100%;
+  object-fit: fill;
+  width: 500px;
+  height: 500px; }
+  #section-2 .container9 img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover; }
+
+#section-2 .container10 {
+  grid-area: "container10";
+  position: relative;
+  width: 100%;
+  object-fit: fill;
+  width: 500px;
+  height: 500px; }
+  #section-2 .container10 img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover; }
+
+#section-2 .container11 {
+  grid-area: "container11";
+  position: relative;
+  width: 100%;
+  object-fit: fill;
+  width: 500px;
+  height: 500px; }
+  #section-2 .container11 img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover; }
+
+#section-2 .container12 {
+  grid-area: "container12";
+  position: relative;
+  width: 100%;
+  object-fit: fill;
+  width: 500px;
+  height: 500px; }
+  #section-2 .container12 img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover; }
+
+/* =============
+    Section-3
+============= */
+#section-3 {
+  margin-top: 300px;
+  margin: auto;
+  position: relative;
+  background-color: #F7743C;
+  width: 80%;
+  padding: 50px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-auto-flow: row;
-  grid-template-rows: repeat(4, 500px);
-  grid-gap: 15px;
-  padding: 20px;
-  padding-top: 100px; }
-  #section-2 .container1 {
-    grid-area: "container1";
-    position: relative;
-    width: 100%;
-    object-fit: fill;
-    width: 500px;
-    height: 500px; }
-    #section-2 .container1 img {
-      width: 500px;
-      height: 500px;
-      object-fit: cover; }
-  #section-2 .container2 {
-    grid-area: "container2";
-    position: relative;
-    width: 100%;
-    object-fit: fill;
-    width: 500px;
-    height: 500px; }
-    #section-2 .container2 img {
-      width: 500px;
-      height: 500px;
-      object-fit: cover; }
-  #section-2 .container3 {
-    grid-area: "container3";
-    position: relative;
-    width: 100%;
-    object-fit: fill;
-    width: 500px;
-    height: 500px; }
-    #section-2 .container3 img {
-      width: 500px;
-      height: 500px;
-      object-fit: cover; }
-  #section-2 .container4 {
-    grid-area: "container4";
-    position: relative;
-    width: 100%;
-    object-fit: fill;
-    width: 500px;
-    height: 500px; }
-    #section-2 .container4 img {
-      width: 500px;
-      height: 500px;
-      object-fit: cover; }
-  #section-2 .container5 {
-    grid-area: "container5";
-    position: relative;
-    width: 100%;
-    object-fit: fill;
-    width: 500px;
-    height: 500px; }
-    #section-2 .container5 img {
-      width: 500px;
-      height: 500px;
-      object-fit: cover; }
-  #section-2 .container6 {
-    grid-area: "container6";
-    position: relative;
-    width: 100%;
-    object-fit: fill;
-    width: 500px;
-    height: 500px; }
-    #section-2 .container6 img {
-      width: 500px;
-      height: 500px;
-      object-fit: cover; }
-  #section-2 .container7 {
-    grid-area: "container7";
-    position: relative;
-    width: 100%;
-    object-fit: fill;
-    width: 500px;
-    height: 500px; }
-    #section-2 .container7 img {
-      width: 500px;
-      height: 500px;
-      object-fit: cover; }
-  #section-2 .container8 {
-    grid-area: "container8";
-    position: relative;
-    width: 100%;
-    object-fit: fill;
-    width: 500px;
-    height: 500px; }
-    #section-2 .container8 img {
-      width: 500px;
-      height: 500px;
-      object-fit: cover; }
-  #section-2 .container9 {
-    grid-area: "container";
-    position: relative;
-    width: 100%;
-    object-fit: fill;
-    width: 500px;
-    height: 500px; }
-    #section-2 .container9 img {
-      width: 500px;
-      height: 500px;
-      object-fit: cover; }
-  #section-2 .container10 {
-    grid-area: "container10";
-    position: relative;
-    width: 100%;
-    object-fit: fill;
-    width: 500px;
-    height: 500px; }
-    #section-2 .container10 img {
-      width: 500px;
-      height: 500px;
-      object-fit: cover; }
-  #section-2 .container11 {
-    grid-area: "container11";
-    position: relative;
-    width: 100%;
-    object-fit: fill;
-    width: 500px;
-    height: 500px; }
-    #section-2 .container11 img {
-      width: 500px;
-      height: 500px;
-      object-fit: cover; }
-  #section-2 .container12 {
-    grid-area: "container12";
-    position: relative;
-    width: 100%;
-    object-fit: fill;
-    width: 500px;
-    height: 500px; }
-    #section-2 .container12 img {
-      width: 500px;
-      height: 500px;
-      object-fit: cover; }
+  grid-template-areas: "img text";
+  grid-template-columns: 40% 40%; }
+  #section-3 > .contact {
+    grid-area: text;
+    margin-left: 90px;
+    align-self: center; }
+    #section-3 > .contact > h1 {
+      padding: 10px;
+      color: white;
+      font-family: 'Oswald', sans-serif;
+      font-weight: 500;
+      font-size: 80px; }
+    #section-3 > .contact > p {
+      display: flex;
+      padding: 10px;
+      padding-top: 30px;
+      color: white;
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-weight: 300;
+      font-size: 40px; }
+    #section-3 > .contact > h3 {
+      display: flex;
+      width: 100%;
+      padding: 10px;
+      padding-top: 30px;
+      color: white;
+      font-family: 'Oswald', sans-serif;
+      font-weight: 300;
+      font-size: 60px; }
+  #section-3 > .imgcontainer {
+    grid-area: img; }
+    #section-3 > .imgcontainer img {
+      display: flex;
+      max-width: 600px;
+      max-height: 600px;
+      align-self: flex-start;
+      border-radius: 30px; }

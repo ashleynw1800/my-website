@@ -1,0 +1,61 @@
+/* =============
+    Section-3
+============= */
+#section-3{
+    margin-top: 300px;
+    margin: auto;
+    position: relative;
+    background-color: #F7743C;
+    width: 80%;
+    padding: 50px;
+    display: grid;
+    grid-template-areas: "img text";
+    grid-template-columns: 40% 40%;
+
+    >.contact{
+        grid-area: text;
+        margin-left: 90px;
+        align-self: center;
+
+        >h1{
+            padding: 10px;
+            color: white;
+            font-family: 'Oswald', sans-serif;
+            font-weight: 500;
+            font-size: 80px;
+        }
+
+        >p{
+            display: flex;
+            padding: 10px;
+            padding-top: 30px;
+            color: white;
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-weight: 300;
+            font-size: 40px;
+        }
+
+        >h3{
+            display: flex;
+            width: 100%;
+            padding: 10px;
+            padding-top: 30px;
+            color: white;
+            font-family: 'Oswald', sans-serif;
+            font-weight: 300;
+            font-size: 60px;
+        }
+    }
+
+    >.imgcontainer{
+        grid-area: img;
+        img{
+            display: flex;
+            max-width: 600px;
+            max-height: 600px;
+            align-self: flex-start;
+            border-radius: 30px;
+        }
+    }
+
+}
