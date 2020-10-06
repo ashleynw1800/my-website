@@ -689,6 +689,7 @@ footer {
   width: 80%;
   padding: 1vw;
   padding-top: 3vw;
+  padding-bottom: 3vw;
   display: grid;
   grid-template-areas: "img text";
   grid-template-columns: 40% 40%;
