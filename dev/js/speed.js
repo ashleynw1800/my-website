@@ -1,1 +1,0 @@
-export const moveSpeed = 2.5; 

@@ -300,39 +300,6 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
-	"/dev/js/demo.js": {
-		"bF": 4,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/deploy/js/demo-min.js",
-		"oF": 3,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/js/happy.js": {
-		"bF": 4,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/deploy/js/happy-min.js",
-		"oF": 2,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/js/hello.js": {
-		"bF": 4,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/deploy/js/hello-min.js",
-		"oF": 2,
-		"sC": 3,
-		"tS": 0
-		},
 	"/dev/js/scripts.js": {
 		"bF": 4,
 		"ft": 64,
@@ -344,14 +311,58 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/js/speed.js": {
+	"/dev/js/sections/header.js": {
 		"bF": 4,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/deploy/js/speed-min.js",
-		"oF": 2,
+		"oAP": "/dev/js/sections/header-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/sections/section-1.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/sections/section-1-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/sections/section-2-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dev/js/sections/section-2-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/sections/section-2.js": {
+		"bF": 4,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/sections/section-2-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/sections/section-3.js": {
+		"bF": 4,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/sections/section-3-min.js",
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
@@ -536,22 +547,6 @@
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
-		},
-	"/dev/section-3.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dev/section-3.html",
-		"oF": 0
-		},
-	"/dev/section-4.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dev/section-4.html",
-		"oF": 0
 		},
 	"/node_modules": {
 		"ft": 65536,
