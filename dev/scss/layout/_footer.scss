@@ -11,6 +11,7 @@ footer{
     display: grid;
     grid-template-areas: "socials . side";
     grid-template-columns: 1fr 1fr 2fr 1fr;
+    padding-bottom: 10px;
 
     >#socials{
         grid-area: socials;

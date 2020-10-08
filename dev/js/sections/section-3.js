@@ -11,7 +11,7 @@ section3TL.from ("#section-3 >.contact", {duration: 5, alpha: 0, y:300, ease: "e
 
 export function section3Animation (){
 	ScrollTrigger.create({
-		markers: true,
+		//markers: true,
 		animation: section3TL,
 		toggleActions: "restart none reverse none",
 		scrub: 1,
